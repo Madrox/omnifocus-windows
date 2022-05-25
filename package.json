@@ -19,12 +19,15 @@
   "license": "MIT",
   "config": {
     "forge": {
-      "packagerConfig": {},
+      "packagerConfig": {
+        "icon": "./src/favicon.ico"
+      },
       "makers": [
         {
           "name": "@electron-forge/maker-squirrel",
           "config": {
-            "name": "omnifocus_windows"
+            "name": "omnifocus_windows",
+            "iconUrl": "https://web.omnifocus.com/favicon.ico"
           }
         },
         {
